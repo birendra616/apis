@@ -64,11 +64,7 @@ const clientSchema = new mongoose.Schema(
       type: String,
       required: [true, "Please enter comments"],
     },
-    date: {
-      type: date,
-      default:date,
-      
-    },
+ 
 
   
   },
